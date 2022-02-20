@@ -1,0 +1,157 @@
+body {
+  background-color: #dfdfdf;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: courgette;
+  font-size: 30px;
+}
+
+/* info panel */
+.info-panel {
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-top: 10px;
+}
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #050404;
+  margin-top: -5px;
+}
+
+/* workingspace */
+.workingspace {
+  margin-top: -50px;
+  margin-right: 40px;
+}
+.workingspace h3 {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: cursive;
+  margin-top: 20px;
+}
+.workingspace p {
+  margin-left: 20px;
+}
+.workingspace img {
+  height: 200px;
+  box-shadow: 1px 10px 20px;
+  margin-left: 30px;
+}
+
+/* My Business */
+#business {
+  background-color: #dfdfdf;
+  text-align: center;
+}
+#business h2 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+#business .row {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  width: auto;
+  margin: auto;
+}
+#contact {
+  margin-bottom: 100px;
+}
+section {
+  padding-top: 6rem;
+  background-color: #dfdfdf;
+}
+/*flipcard*/
+.box {
+  background-color: rgb(186, 233, 233);
+  box-shadow: 0 0 0 1px #bce7e9;
+  padding: 30px 10px;
+  position: relative;
+  z-index: 0;
+  transition: 0.2s all;
+}
+.box:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0, 2);
+  transform: scale(1.06);
+}
+.box .avtar {
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  overflow: hidden;
+  margin: 20px;
+}
+.box .box_content {
+  margin: 10px 0;
+}
+.box .box_content .title {
+  color: #313435;
+  font-family: 'roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4rem;
+  margin: 0;
+}
+.box .box_content .post {
+  font-family: 'roboto', sans-serif;
+  font-size: 14px;
+  line-height: 2.375rem;
+  color: #6f808a;
+}
+.box .icons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.box .icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* dekstop version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, 10);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+}
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid rgb(5, 9, 233);
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
