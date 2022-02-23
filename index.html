@@ -288,7 +288,7 @@
                 <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px"><i class="fab fa-facebook"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://instagram.com/indococoprime.id?utm_mediium" class="btn-floating btn-sm text-white" style="font-size: 23px"><i class="fab fa-instagram"></i> </a>
+                <a href="https://instagram.com/cocoprimee?utm_medium=copy_link" class="btn-floating btn-sm text-white" style="font-size: 23px"><i class="fab fa-instagram"></i> </a>
               </li>
             </ul>
           </div>
@@ -309,6 +309,27 @@
       </div>
     </footer>
     <!-- akhir footer -->
+    <script type="text/javascript">
+      var inc = 1000;
+
+      clock();
+      function clock() {
+        const date = new Date();
+
+        const hours = ((date.getHours() + 11) % 12) + 1;
+        const minutes = date.getMinutes();
+        const seconds = date.getSeconds();
+
+        const hour = hours * 30;
+        const minute = minutes * 6;
+        const second = seconds * 6;
+
+        document.querySelector('.hour').style.transform = `rotate(${hour}deg)`;
+        document.querySelector('.minute').style.transform = `rotate(${minute}deg)`;
+        document.querySelector('.second').style.transform = `rotate(${second}deg)`;
+      }
+      setInterval(clock, inc);
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
