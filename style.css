@@ -88,15 +88,13 @@ section {
 }
 /*flipcard*/
 #team img {
-  margin-top: -50px;
+  margin-top: -20px;
 }
 #team p {
   font-weight: 500;
 }
-#team .card {
-  border-radius: 30%0%;
-  background-color: rgb(158, 199, 189);
-  box-shadow: 5px 5px 15px #050404;
+.container11 {
+  flex-wrap: wrap;
 }
 /* dekstop version */
 @media (min-width: 992px) {
