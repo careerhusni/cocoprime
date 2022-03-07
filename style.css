@@ -87,15 +87,57 @@ section {
   background-color: #dfdfdf;
 }
 /*flipcard*/
-#team img {
-  margin-top: -20px;
+
+.box {
+  background-color: rgb(19, 84, 104);
+  box-shadow: 0 0 0 1px #e2e9ed;
+  padding: 30px 5px;
+  position: static;
+  z-index: 0;
+  transition: 0.2s all;
+  margin-top: -100px;
 }
-#team p {
+.box:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0, 2);
+  transform: scale(1.06);
+}
+.box .avtar {
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.box .box_content {
+  margin: 10px 0;
+}
+.box .box_content .title {
+  color: #000507;
+  font-family: 'roboto', sans-serif;
+  font-size: 18px;
   font-weight: 500;
+  line-height: 1.6rem;
+  margin: 0;
 }
-.container11 {
-  flex-wrap: wrap;
+.box .box_content .post {
+  font-family: 'roboto', sans-serif;
+  font-size: 14px;
+  line-height: 2.375rem;
+  color: #f7fcff;
 }
+.box .icons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.box .icons li {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: antiquewhite;
+  border-radius: 50px;
+}
+
 /* dekstop version */
 @media (min-width: 992px) {
   .navbar-brand,
