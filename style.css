@@ -91,9 +91,9 @@ section {
 .box {
   background-color: rgb(19, 84, 104);
   box-shadow: 0 0 0 1px #e2e9ed;
-  padding: 30px 5px;
+  padding: 120px;
   position: static;
-  z-index: 0;
+  z-index: 1;
   transition: 0.2s all;
   margin-top: -100px;
 }
