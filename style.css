@@ -6,6 +6,7 @@ body {
 .navbar-brand {
   font-family: courgette;
   font-size: 30px;
+  text-shadow: #050404;
 }
 
 /* info panel */
@@ -52,8 +53,6 @@ body {
   margin-left: 20px;
 }
 .workingspace img {
-  height: 400px;
-  width: 500px;
   box-shadow: 1px 10px 20px;
   margin-left: 30px;
 }
